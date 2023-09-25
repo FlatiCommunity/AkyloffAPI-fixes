@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'me.whiteakyloff.api.APILoader'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly files('X:/AkyloffAPI.jar', 'X:/dionysus.jar', 'X:/trove-3.0.3.jar')
+}
